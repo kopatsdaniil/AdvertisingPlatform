@@ -1,5 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+# Бинарные файлы и папки отладки
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+*.dll
+*.pdb
+
+# Файлы NuGet
+*.csproj.nuget.dgspec.json
+project.assets.json
+project.nuget.cache
+project.packagespec.json
+*.nuget.info
+
+# Миграции (если они не нужны в репозитории)
+Migrations/
+
+# Конфигурационные файлы
+appsettings.json
+
+# Rider кэш файлы
+*.model.nuget.info
+*.restore.info
+
+# AssemblyInfo файлы
+*AssemblyInfo.cs
+*AssemblyInfoInputs.cache
+*.AssemblyReference.cache
+*.CoreCompileInputs.cache
+*.sourcelink.json
+
+# Ref папки
+ref/
+refint/
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+**/obj/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sw?
